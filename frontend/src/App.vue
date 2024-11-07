@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="You did it!" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/main">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
@@ -83,3 +83,4 @@ nav a:first-of-type {
   }
 }
 </style>
+
